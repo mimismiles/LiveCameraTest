@@ -97,7 +97,14 @@
                             <outlet property="delegate" destination="7hc-EF-gqb" id="g4S-iL-HcJ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Birthday Party To Do's" id="7fk-G9-q42"/>
+                    <navigationItem key="navigationItem" title="Birthday Party To Do's" id="7fk-G9-q42">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="i0X-6z-PoV">
+                            <color key="tintColor" red="0.97239957909999997" green="0.2769938341" blue="0.49821045559999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="7hc-EF-gqb" id="mSb-N4-Xv9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xbk-dr-f52" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
